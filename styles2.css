@@ -1,0 +1,84 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: rgb(56, 55, 55);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #d35400;
+}
+
+.h11{
+    margin-left: 20%;
+    color: #f2f2f2;
+}
+
+.h12{
+    margin-left: 70%;
+    color: #f2f2f2;
+}
+
+.texto1 {
+    margin-left: 0;
+    text-align: left;
+    float: left;
+    padding: 5%;
+    color: white;
+    font-size: 17px;
+}
+
+.texto2 {
+    margin-left: auto;
+    text-align: right;
+    float: right;
+    padding: 5%;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.img9{
+    width: 37%;
+    border-radius: 20px;
+}
+.img10{
+    width: 37%;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+
